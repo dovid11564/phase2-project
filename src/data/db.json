@@ -5,7 +5,6 @@
       "name": "Magic the Gathering",
       "description": "A multiplayer card battle game",
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Magic_the_gathering-card_back.jpg/220px-Magic_the_gathering-card_back.jpg",
-      "playersNeeded": 3,
       "genre": "Card Battler"
     },
     {
@@ -13,14 +12,12 @@
       "name": "Dungeons and Dragons",
       "description": "A classic tabletop roleplaying game",
       "image": "https://yt3.ggpht.com/KU7fu45NbvlG8ECdXtnz2zsJZpHDAPcgd49oQcSTw7IoCXguTJl06kOTUDhBLP417JxP5jGV=s900-c-k-c0x00ffffff-no-rj",
-      "playersNeeded": 4,
       "genre": "Tabletop Roleplaying Game"
     },
     {
       "name": "Hearthstone",
       "description": "An online card battling game!",
       "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/Hearthstone_2016_logo.png",
-      "playersNeeded": "1",
       "genre": "Card Battler",
       "id": 3
     },
@@ -28,9 +25,33 @@
       "name": "Arkham Horror",
       "description": "A cooperative dungeon crawling board game with Lovecraft horror elements!",
       "image": "https://cf.geekdo-images.com/ex8DrGtCifqEpkSd2d9ReQ__opengraph_left/img/8bCgFapyS7WRfvv14cyaBCF5U3I=/fit-in/445x445/filters:strip_icc()/pic4582151.jpg",
-      "playersNeeded": "2",
       "genre": "TTRPG",
       "id": 4
+    },
+    {
+      "name": "Scrabble",
+      "description": "A word spelling game!",
+      "image": "https://cf.geekdo-images.com/mVmmntn2oQd0PfFrWBvwIQ__opengraph_left/img/H309VorTZlM7pGQDYn-e7r8SC0Y=/fit-in/445x445/filters:strip_icc()/pic404651.jpg",
+      "genre": "Puzzle",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Looking for D&D players!",
+      "description": "Looking for new players who have never played D&D before. I'm a friendly DM who will guide players through the game!",
+      "status": "Looking for players",
+      "game": "Dungeons and Dragons",
+      "comments": {}
+    },
+    {
+      "id": 2,
+      "title": "Looking for a Magic game",
+      "description": "I'm trying to find someone who will plays some games of Magic the Gathering with me! I'm pretty experienced, so I'd like to find a good player.",
+      "status": "Looking for game",
+      "game": "Magic the Gathering",
+      "comments": {}
     }
   ]
 }
