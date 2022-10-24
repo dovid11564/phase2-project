@@ -1,16 +1,19 @@
-[
-        {
-            "name": "Magic the Gathering",
-            "description": "A multiplayer card battle game",
-            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Magic_the_gathering-card_back.jpg/220px-Magic_the_gathering-card_back.jpg",
-            "playersNeeded": 3,
-            "genre": "Card Battler"
-        },
-        {
-            "name": "Dungeons and Dragons",
-            "description": "A classic tabletop roleplaying game",
-            "image": "https://yt3.ggpht.com/KU7fu45NbvlG8ECdXtnz2zsJZpHDAPcgd49oQcSTw7IoCXguTJl06kOTUDhBLP417JxP5jGV=s900-c-k-c0x00ffffff-no-rj",
-            "playersNeeded": 4,
-            "genre": "Tabletop Roleplaying Game"
-        }
-    ]
+{
+   "games": [ 
+   {
+    "name": "Magic the Gathering",
+    "description": "A multiplayer card battle game",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Magic_the_gathering-card_back.jpg/220px-Magic_the_gathering-card_back.jpg",
+    "playersNeeded": 3,
+    "genre": "Card Battler"
+},
+
+{
+    "name": "Dungeons and Dragons",
+    "description": "A classic tabletop roleplaying game",
+    "image": "https://yt3.ggpht.com/KU7fu45NbvlG8ECdXtnz2zsJZpHDAPcgd49oQcSTw7IoCXguTJl06kOTUDhBLP417JxP5jGV=s900-c-k-c0x00ffffff-no-rj",
+    "playersNeeded": 4,
+    "genre": "Tabletop Roleplaying Game"
+}
+]
+}
