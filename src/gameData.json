@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+    "gameData": [
+    {
+        "name" : "Magic the Gathering",
+        "description" : "A card based multiplayer game",
+        "image" : "https://images.ctfassets.net/s5n2t79q9icq/1i5z5p91EUnMwAArTzsQ6M/fb1c100867bb66531cd0c1e19a89fd95/dmu_arena_highlights2.jpg?w=500",
+        "playersNeeded" : 3,
+        "genre" : "Card Battler"
+    }, 
+    {
+        "name" : "Dungeons and Dragons",
+        "description" : "A tabletop roleplaying game",
+        "image" : "https://www.tribality.com/wp-content/uploads/2014/10/cover-dnd-e1501645849868.jpg",
+        "playersNeeded" : 4,
+        "genre" : "TTRPG"
+    }
+  ]
+}
