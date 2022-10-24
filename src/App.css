@@ -37,6 +37,20 @@
   }
 }
 
-.gameCard {
-  border: #282c34;
+.gameImage {
+  height: 100px;
 }
+
+.gameCard {
+  display: fixed;
+  height: 50px;
+}
+
+.post {
+  list-style: none;
+  border-style: solid;
+  border-color: blue;
+  background-color: #61dafb;
+}
+
+
