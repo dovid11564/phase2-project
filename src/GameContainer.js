@@ -8,9 +8,9 @@ function GameContainer({gameData}) {
         )
     })
     return (
-        <div>
+        <ul className="cards">
             {gameArray}
-        </div>
+        </ul>
     )
 }
 

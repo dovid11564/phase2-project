@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.gameCard {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: 1rem;
+}
+
+.gameCard img {
+  width: 7%;
+  hieght: 7%;
+  margin: 1rem;
+}
+
+.imageDiv {
+  text-align: left;
+}
+
+.cards {
+  list-style: none;
+}

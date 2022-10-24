@@ -1,14 +1,16 @@
 import React from "react";
 
-function GameCard({game}) {
+function GameCard({ game }) {
     return (
-        <span className="gameCard">
+        <li className="gameCard">
             <h4>{game.name}</h4>
-            <img src={game.image} alt={game.name}/>
+            <div className="imageDiv">
+                <img src={game.image} alt={game.name} />
+            </div>
             <p>{game.description}</p>
             <p>Players Needed: {game.playersNeeded}</p>
             <p>Genre: {game.genre}</p>
-        </span>
+        </li>
     )
 }
 
