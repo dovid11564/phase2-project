@@ -4,7 +4,7 @@ import Comment from "./Comment"
 function CommentContainer({postID, postComments}) {
 
     const commentArray = postComments.map((comm) => {
-        return <li key={comm}>{comm}</li>
+        return <li key={comm} className="comment">{comm}</li>
     })
 
     return (

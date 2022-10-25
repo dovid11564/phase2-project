@@ -51,7 +51,8 @@
       "status": "Looking for players",
       "game": "Dungeons and Dragons",
       "comments": [
-        "hello"
+        "hello",
+        "Sweet"
       ]
     },
     {
@@ -116,10 +117,12 @@
     },
     {
       "title": "Want to play Magic",
-      "description": "Need good players to test y skills",
+      "description": "Need good players to test my skills",
       "status": "Looking for players",
       "game": "Magic the Gathering",
-      "comments": [],
+      "comments": [
+        "I do!!"
+      ],
       "id": 8
     }
   ]
