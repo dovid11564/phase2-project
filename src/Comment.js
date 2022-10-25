@@ -10,9 +10,9 @@ function Comment({postID, postComments}) {
         console.log(newComment)
         fetch(`http://localhost:3000/posts/${postID}`, {
             method: 'PATCH',
-            headers: { 'content-type': 'applications/json' },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                comments: newComment
+                comments: [...postComments, newComment]
             })
         })
         .then(resp => resp.json())
