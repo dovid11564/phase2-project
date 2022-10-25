@@ -9,6 +9,8 @@ import NewPostForm from "./NewPostForm";
 function App() {
   const [gameList, setGameList] = useState([])
   const [postList, setPostList] = useState([])
+  const [gameToFilter, setGameToFilter] = useState("")
+  const [status, setStatus] = useState("")
 
 
   useEffect(() => {
@@ -50,23 +52,62 @@ function App() {
         title: title,
         description: description,
         status: status,
-        game: game
+        game: game,
+        comments: []
       })
     })
       .then(resp => resp.json())
       .then(data => {
-        setGameList([...postList, data])
+        setPostList([data, ...postList])
       })
   }
+
+  const postsFilteredByGame = postList.filter((post) => {
+    if (gameToFilter === "") {
+      if (status === ""){
+      return true
+      }
+      else if (post.status === status) {
+        return true
+      } else {
+        return false
+      }
+    } 
+    else if (post.game === gameToFilter) {
+      if (status === ""){
+        return true
+        }
+        if (post.status === status) {
+          return true
+        } else {
+          return false
+        }
+    }
+    else {
+      return false
+    }
+  })
 
 
 
   return (
     <div className="App">
-      <Header onFormSubmit={handleGameFormSubmit} />
-      <GameContainer gameData={gameList} />
-      <NewPostForm gameData={gameList}/>
-      <PostContainer postData={postList}/>
+      <Header 
+      onFormSubmit={handleGameFormSubmit} />
+
+      <GameContainer 
+      gameData={gameList} 
+      gameToFilter={gameToFilter}
+      setGameToFilter={setGameToFilter}
+      status={status}
+      setStatus={setStatus}/>
+
+      <NewPostForm 
+      gameData={gameList} 
+      onPostFormSubmit={handlePostFormSubmit}/>
+
+      <PostContainer 
+      postData={postsFilteredByGame}/>
     </div>
   );
 }
