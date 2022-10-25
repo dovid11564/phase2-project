@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Magic the Gathering",
       "description": "A multiplayer card battle game",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Magic_the_gathering-card_back.jpg/220px-Magic_the_gathering-card_back.jpg",
+      "image": "https://play-lh.googleusercontent.com/VRGw0kX0NUif5-W3JBC1ZvSVNUFmG6wCqNPIbL_52vbuPk8SEoHLH0p9RTekMnKURP2U",
       "genre": "Card Battler"
     },
     {
@@ -17,7 +17,7 @@
     {
       "name": "Hearthstone",
       "description": "An online card battling game!",
-      "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/Hearthstone_2016_logo.png",
+      "image": "https://logos-world.net/wp-content/uploads/2021/02/Hearthstone-Logo-700x394.png",
       "genre": "Card Battler",
       "id": 3
     },
@@ -101,7 +101,8 @@
       "status": "Looking for game",
       "game": "Dungeons and Dragons",
       "comments": [
-        "hello"
+        "hello",
+        "I'm removing you from the campaign -karen"
       ],
       "id": 6
     },
@@ -124,6 +125,14 @@
         "I do!!"
       ],
       "id": 8
+    },
+    {
+      "title": "",
+      "description": "",
+      "status": "Looking for game",
+      "game": "Magic the Gathering",
+      "comments": [],
+      "id": 9
     }
   ]
 }
