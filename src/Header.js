@@ -9,7 +9,7 @@ function Header({onFormSubmit}) {
     }
 
     return (
-        <div>
+        <div className="header">
             <div>
             <h2>
                 Party Planner
