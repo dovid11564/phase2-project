@@ -10,13 +10,17 @@ function Header({onFormSubmit}) {
 
     return (
         <div>
+            <div>
             <h2>
                 Party Planner
+                <h4>Find Friends to play with!</h4>
             </h2>
-            <button onClick={handleClick}>
-                {button ? "Hide new game form": "Add a new game!"}
+            <p><button onClick={handleClick}>
+                {button ? "Hide new game form": "Create A Listing"}
             </button>
             {button ? <NewGameForm onFormSubmit={onFormSubmit}/> : null}
+            </p>
+        </div>
         </div>
     )
 }
