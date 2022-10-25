@@ -10,6 +10,7 @@ function NewGameForm({onFormSubmit}) {
 
 
     return (
+        <div classname="form">
         <form onSubmit={(e) => handleSubmit(e)}>
             <input type="text" name="name" placeholder="type new game name here"></input>
             <input type="text" name="description" placeholder="type new game description here"></input>
@@ -24,6 +25,7 @@ function NewGameForm({onFormSubmit}) {
             </select>
             <button type="submit">Add Game!</button>
         </form>
+        </div>
     )
 }
 
