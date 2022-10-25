@@ -51,8 +51,7 @@
       "status": "Looking for players",
       "game": "Dungeons and Dragons",
       "comments": [
-        "hello",
-        "Sweet"
+        "Sweet!"
       ]
     },
     {
@@ -61,18 +60,14 @@
       "description": "I'm trying to find someone who will plays some games of Magic the Gathering with me! I'm pretty experienced, so I'd like to find a good player.",
       "status": "Looking for game",
       "game": "Magic the Gathering",
-      "comments": [
-        "hello"
-      ]
+      "comments": []
     },
     {
       "title": "Star Wars: Legion players wanted",
       "description": "Seeking a player with a complete Rebel army to go up against my Empire army!",
       "status": "Looking for players",
       "game": "Star Wars: Legion",
-      "comments": [
-        "hello"
-      ],
+      "comments": [],
       "id": 3
     },
     {
@@ -80,9 +75,7 @@
       "description": "Looking forward to doing some competitive spelling",
       "status": "Looking for players",
       "game": "Scrabble",
-      "comments": [
-        "hello"
-      ],
+      "comments": [],
       "id": 4
     },
     {
@@ -90,9 +83,7 @@
       "description": "Need to prepare for an upcoming Hearthstone Championship, and need a training buddy",
       "status": "Looking for players",
       "game": "Hearthstone",
-      "comments": [
-        "hello"
-      ],
+      "comments": [],
       "id": 5
     },
     {
@@ -101,8 +92,7 @@
       "status": "Looking for game",
       "game": "Dungeons and Dragons",
       "comments": [
-        "hello",
-        "I'm removing you from the campaign -karen"
+        "hello"
       ],
       "id": 6
     },
@@ -111,9 +101,7 @@
       "description": "I bought Arkham Horror the other day, and need people to play with. Anyone interested?",
       "status": "Looking for players",
       "game": "Arkham Horror",
-      "comments": [
-        "hello"
-      ],
+      "comments": [],
       "id": 7
     },
     {
