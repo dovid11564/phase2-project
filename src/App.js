@@ -58,7 +58,7 @@ function App() {
     })
       .then(resp => resp.json())
       .then(data => {
-        setPostList([data, ...postList])
+        setPostList([...postList, data])
       })
   }
 

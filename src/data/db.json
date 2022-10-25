@@ -46,24 +46,13 @@
   "posts": [
     {
       "id": 1,
-      "title": "Looking for D&D players!",
-      "description": "Looking for new players who have never played D&D before. I'm a friendly DM who will guide players through the game!",
+      "title": "Looking for a D&D game",
+      "description": "Need some adventurers for a new campaign!",
       "status": "Looking for players",
       "game": "Dungeons and Dragons",
-      "comments": {
-        "newComment": [
-          {
-            "id": 1,
-            "title": "Looking for D&D players!",
-            "description": "Looking for new players who have never played D&D before. I'm a friendly DM who will guide players through the game!",
-            "status": "Looking for players",
-            "game": "Dungeons and Dragons",
-            "comments": {
-              "newComment": "So cool!"
-            }
-          }
-        ]
-      }
+      "comments": [
+        "hello"
+      ]
     },
     {
       "id": 2,
@@ -71,14 +60,18 @@
       "description": "I'm trying to find someone who will plays some games of Magic the Gathering with me! I'm pretty experienced, so I'd like to find a good player.",
       "status": "Looking for game",
       "game": "Magic the Gathering",
-      "comments": []
+      "comments": [
+        "hello"
+      ]
     },
     {
       "title": "Star Wars: Legion players wanted",
       "description": "Seeking a player with a complete Rebel army to go up against my Empire army!",
       "status": "Looking for players",
       "game": "Star Wars: Legion",
-      "comments": [],
+      "comments": [
+        "hello"
+      ],
       "id": 3
     },
     {
@@ -86,7 +79,9 @@
       "description": "Looking forward to doing some competitive spelling",
       "status": "Looking for players",
       "game": "Scrabble",
-      "comments": [],
+      "comments": [
+        "hello"
+      ],
       "id": 4
     },
     {
@@ -94,7 +89,9 @@
       "description": "Need to prepare for an upcoming Hearthstone Championship, and need a training buddy",
       "status": "Looking for players",
       "game": "Hearthstone",
-      "comments": [],
+      "comments": [
+        "hello"
+      ],
       "id": 5
     },
     {
@@ -102,7 +99,9 @@
       "description": "My DM has been a real jerk lately, and I need to find a new one. Anyone need another party memeber?",
       "status": "Looking for game",
       "game": "Dungeons and Dragons",
-      "comments": [],
+      "comments": [
+        "hello"
+      ],
       "id": 6
     },
     {
@@ -110,8 +109,18 @@
       "description": "I bought Arkham Horror the other day, and need people to play with. Anyone interested?",
       "status": "Looking for players",
       "game": "Arkham Horror",
-      "comments": [],
+      "comments": [
+        "hello"
+      ],
       "id": 7
+    },
+    {
+      "title": "Want to play Magic",
+      "description": "Need good players to test y skills",
+      "status": "Looking for players",
+      "game": "Magic the Gathering",
+      "comments": [],
+      "id": 8
     }
   ]
 }
