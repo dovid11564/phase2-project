@@ -1,7 +1,7 @@
 import React from "react";
 import Comment from "./Comment"
 
-function CommentContainer({postID, postComments}) {
+function CommentContainer({ postID, postComments }) {
 
     const commentArray = postComments.map((comm) => {
         return <li key={comm} className="comment">{comm}</li>
@@ -10,7 +10,7 @@ function CommentContainer({postID, postComments}) {
     return (
         <ul>
             {commentArray}
-            <Comment postID={postID} key={postID} postComments={postComments}/>
+            <Comment postID={postID} key={postID} postComments={postComments} />
         </ul>
     )
 }

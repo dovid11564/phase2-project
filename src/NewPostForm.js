@@ -16,7 +16,7 @@ function NewPostForm({ gameData, onPostFormSubmit }) {
     }
 
     return(
-        <form onSubmit={(e) => handleSubmit(e)}>
+        <form onSubmit={(e) => handleSubmit(e)} className="newpostform">
             <input type="text" name="title" placeholder="Post Title"></input>
             <input type="text" name="description" placeholder="Post Description"></input>
             <select name="status">

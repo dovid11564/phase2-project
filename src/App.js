@@ -3,7 +3,6 @@ import './App.css';
 import Header from "./Header"
 import GameContainer from "./GameContainer";
 import PostContainer from "./PostContainer";
-import NewPostForm from "./NewPostForm";
 // import gameData from "./data/db.json"
 
 function App() {
@@ -20,12 +19,12 @@ function App() {
   },
     [])
 
-  useEffect(() =>{
+  useEffect(() => {
     fetch("http://localhost:3000/posts")
-    .then(resp => resp.json())
-    .then(data => setPostList(data))
+      .then(resp => resp.json())
+      .then(data => setPostList(data))
   },
-  [])
+    [])
 
   function handleGameFormSubmit(name, image, description, genre) {
     fetch("http://localhost:3000/games", {
@@ -64,24 +63,24 @@ function App() {
 
   const postsFilteredByGame = postList.filter((post) => {
     if (gameToFilter === "") {
-      if (status === ""){
-      return true
+      if (status === "") {
+        return true
       }
       else if (post.status === status) {
         return true
       } else {
         return false
       }
-    } 
+    }
     else if (post.game === gameToFilter) {
-      if (status === ""){
+      if (status === "") {
         return true
-        }
-        if (post.status === status) {
-          return true
-        } else {
-          return false
-        }
+      }
+      if (post.status === status) {
+        return true
+      } else {
+        return false
+      }
     }
     else {
       return false
@@ -92,22 +91,21 @@ function App() {
 
   return (
     <div className="App">
-      <Header 
-      onFormSubmit={handleGameFormSubmit} />
+      <Header
+        onFormSubmit={handleGameFormSubmit} />
 
-      <GameContainer 
-      gameData={gameList} 
-      gameToFilter={gameToFilter}
-      setGameToFilter={setGameToFilter}
-      status={status}
-      setStatus={setStatus}/>
+      <GameContainer
+        gameData={gameList}
+        gameToFilter={gameToFilter}
+        setGameToFilter={setGameToFilter}
+        status={status}
+        setStatus={setStatus} />
 
-      <NewPostForm 
-      gameData={gameList} 
-      onPostFormSubmit={handlePostFormSubmit}/>
 
-      <PostContainer 
-      postData={postsFilteredByGame}/>
+      <PostContainer
+        postData={postsFilteredByGame} 
+        gameData={gameList}
+        onPostFormSubmit={handlePostFormSubmit}/>
     </div>
   );
 }

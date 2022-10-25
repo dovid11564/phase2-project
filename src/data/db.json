@@ -121,6 +121,14 @@
       "game": "Magic the Gathering",
       "comments": [],
       "id": 9
+    },
+    {
+      "title": "Arkham Game Wanted!!!",
+      "description": "Looking for a way to play Arkham Horror. Seemed like a fun game, and I want to play!",
+      "status": "Looking for game",
+      "game": "Arkham Horror",
+      "comments": [],
+      "id": 10
     }
   ]
 }

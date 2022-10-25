@@ -1,7 +1,7 @@
 import React from "react";
 import GameCard from "./GameCard";
 
-function GameContainer({gameData, gameToFilter, setGameToFilter, setStatus, status}) {
+function GameContainer({ gameData, gameToFilter, setGameToFilter, setStatus, status }) {
 
     function handleClick() {
         setGameToFilter("")
@@ -11,7 +11,7 @@ function GameContainer({gameData, gameToFilter, setGameToFilter, setStatus, stat
     function handleChange(e) {
         if (e.target.value === "All") {
             setStatus("")
-        } 
+        }
         else if (e.target.value === "Looking for game") {
             setStatus("Looking for game")
         }
@@ -21,25 +21,28 @@ function GameContainer({gameData, gameToFilter, setGameToFilter, setStatus, stat
     }
 
     const gameArray = gameData.map((game) => {
-        return(
-            
-            <GameCard 
-            game={game} 
-            key={game.id} 
-            gameToFilter={gameToFilter} 
-            setGameToFilter={setGameToFilter}/>
-        
+        return (
+
+            <GameCard
+                game={game}
+                key={game.id}
+                gameToFilter={gameToFilter}
+                setGameToFilter={setGameToFilter} />
+
         )
     })
     return (
-        <div>
-            <button onClick={handleClick}>Show All Posts</button>
-            <select onChange={handleChange}>
-                <option placeholder value="All">Show All</option>
-                <option>Looking for game</option>
-                <option>Looking for players</option>
-            </select>
-            {gameArray}
+        <div className="gameDiv">
+            <div>
+                <button onClick={handleClick}>Show All Posts</button>
+                <select onChange={handleChange}>
+                    <option placeholder value="All">Show All</option>
+                    <option>Looking for game</option>
+                    <option>Looking for players</option>
+                </select>
+            </div>
+            <div>{gameArray}</div>
+
         </div>
     )
 }
