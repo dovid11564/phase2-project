@@ -34,6 +34,13 @@
       "image": "https://cf.geekdo-images.com/mVmmntn2oQd0PfFrWBvwIQ__opengraph_left/img/H309VorTZlM7pGQDYn-e7r8SC0Y=/fit-in/445x445/filters:strip_icc()/pic404651.jpg",
       "genre": "Puzzle",
       "id": 5
+    },
+    {
+      "name": "Star Wars: Legion",
+      "description": "A Star Wars themed army building game",
+      "image": "https://cf.geekdo-images.com/pttzJMbECpFBL_h5tD6SaA__opengraph/img/wBqsN61nkJ4uSTbdraamulZgUX0=/fit-in/1200x630/filters:strip_icc()/pic3764376.jpg",
+      "genre": "Strategy",
+      "id": 6
     }
   ],
   "posts": [
@@ -43,7 +50,20 @@
       "description": "Looking for new players who have never played D&D before. I'm a friendly DM who will guide players through the game!",
       "status": "Looking for players",
       "game": "Dungeons and Dragons",
-      "comments": {}
+      "comments": {
+        "newComment": [
+          {
+            "id": 1,
+            "title": "Looking for D&D players!",
+            "description": "Looking for new players who have never played D&D before. I'm a friendly DM who will guide players through the game!",
+            "status": "Looking for players",
+            "game": "Dungeons and Dragons",
+            "comments": {
+              "newComment": "So cool!"
+            }
+          }
+        ]
+      }
     },
     {
       "id": 2,
@@ -51,7 +71,47 @@
       "description": "I'm trying to find someone who will plays some games of Magic the Gathering with me! I'm pretty experienced, so I'd like to find a good player.",
       "status": "Looking for game",
       "game": "Magic the Gathering",
-      "comments": {}
+      "comments": []
+    },
+    {
+      "title": "Star Wars: Legion players wanted",
+      "description": "Seeking a player with a complete Rebel army to go up against my Empire army!",
+      "status": "Looking for players",
+      "game": "Star Wars: Legion",
+      "comments": [],
+      "id": 3
+    },
+    {
+      "title": "I want to play Scrabble!",
+      "description": "Looking forward to doing some competitive spelling",
+      "status": "Looking for players",
+      "game": "Scrabble",
+      "comments": [],
+      "id": 4
+    },
+    {
+      "title": "Competitive Hearthstone Partner Wanted",
+      "description": "Need to prepare for an upcoming Hearthstone Championship, and need a training buddy",
+      "status": "Looking for players",
+      "game": "Hearthstone",
+      "comments": [],
+      "id": 5
+    },
+    {
+      "title": "Need a new DM",
+      "description": "My DM has been a real jerk lately, and I need to find a new one. Anyone need another party memeber?",
+      "status": "Looking for game",
+      "game": "Dungeons and Dragons",
+      "comments": [],
+      "id": 6
+    },
+    {
+      "title": "Anyone want to play Arkham Horror?",
+      "description": "I bought Arkham Horror the other day, and need people to play with. Anyone interested?",
+      "status": "Looking for players",
+      "game": "Arkham Horror",
+      "comments": [],
+      "id": 7
     }
   ]
 }

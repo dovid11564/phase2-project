@@ -1,6 +1,6 @@
 import React from "react";
 
-function NewPostForm({gameData}) {
+function NewPostForm({ gameData, onPostFormSubmit }) {
 
     const gameSelectArray = gameData.map((game) => {
         return(
@@ -11,7 +11,8 @@ function NewPostForm({gameData}) {
 
     function handleSubmit(e) {
         e.preventDefault()
-        console.log(e.target.title.value, e.target.description.value, e.target.status.value, e.target.game.value)
+        onPostFormSubmit(e.target.title.value, e.target.description.value, e.target.status.value, e.target.game.value)
+        
     }
 
     return(
