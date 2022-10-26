@@ -50,7 +50,7 @@
 }
 
 .gameContainer {
-  background: #1b62b9;
+  background: orange;
   height: 170px;
   display: inline-block;
 }
@@ -77,8 +77,30 @@
   text-align: left;
 }
 
+.comment{
+  border: solid;
+  background-color: orange;
+  border-width: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+.commentHeader {
+  text-align: center;
+  text-decoration: underline;
+}
+
 
 .newpostform {
+  white-space: pre;
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  position: relative;
+}
+
+.newGameForm {
   white-space: pre;
   display: inline-flex;
   flex-direction: column;
@@ -107,10 +129,24 @@
 
 .allGamesSpan {
   border-style: solid;
+  border-radius: 5%;
   border-color: #000;
   display: flex;
   text-align: center;
   flex-direction: column;
+  margin-top: 20px;
+  width: 300px;
+  height: 400px;
+  display: inline-flex;
+  background-color: var(--color-dark-yellow);
+  margin: 10px
+}
+
+.addNewGameButton {
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  background-color: var(--color-blue);
+  color: white;
 }
 
 

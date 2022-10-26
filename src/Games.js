@@ -13,12 +13,15 @@ function Games() {
 
     const gamesArray = allGames.map((game) => {
         return (
-            <span className="allGamesSpan">
+            <span className="allGamesSpan" key={game.name}>
                 <img src={game.image} alt={game.name} className="allGamesImage"/>
                 <div className="allGamesText">
                 <h3>{game.name}</h3>
-                <p>{game.genre}</p>
+                <h5>Genre: {game.genre}</h5>
                 <p>{game.description}</p>
+                <a href={game.shoppingLink}>
+                    <button>Shop for this game!</button>
+                </a>
                 </div>
             </span>
         )

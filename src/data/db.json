@@ -5,6 +5,7 @@
       "name": "Magic the Gathering",
       "description": "A multiplayer card battle game",
       "image": "https://play-lh.googleusercontent.com/VRGw0kX0NUif5-W3JBC1ZvSVNUFmG6wCqNPIbL_52vbuPk8SEoHLH0p9RTekMnKURP2U",
+      "shoppingLink": "https://magic.wizards.com/en/products/phyrexia-all-will-be-one",
       "genre": "Card Battler"
     },
     {
@@ -12,12 +13,14 @@
       "name": "Dungeons and Dragons",
       "description": "A classic tabletop roleplaying game",
       "image": "https://i.pinimg.com/736x/05/c1/5a/05c15aca14964af944aac1c638e1d7d2.jpg",
+      "shoppingLink": "https://www.dndbeyond.com/",
       "genre": "Tabletop Roleplaying Game"
     },
     {
       "name": "Hearthstone",
       "description": "An online card battling game!",
       "image": "https://i.pinimg.com/280x280_RS/fa/7b/f7/fa7bf7f45fcd2bd6dc9fcddff08eb5d7.jpg",
+      "shoppingLink": "https://hearthstone.blizzard.com/en-us",
       "genre": "Card Battler",
       "id": 3
     },
@@ -25,6 +28,7 @@
       "name": "Arkham Horror",
       "description": "A cooperative dungeon crawling board game with Lovecraft horror elements!",
       "image": "https://cf.geekdo-images.com/ex8DrGtCifqEpkSd2d9ReQ__opengraph_left/img/8bCgFapyS7WRfvv14cyaBCF5U3I=/fit-in/445x445/filters:strip_icc()/pic4582151.jpg",
+      "shoppingLink": "https://www.fantasyflightgames.com/en/products/arkham-horror-third-edition/",
       "genre": "TTRPG",
       "id": 4
     },
@@ -32,6 +36,7 @@
       "name": "Scrabble",
       "description": "A word spelling game!",
       "image": "https://cf.geekdo-images.com/mVmmntn2oQd0PfFrWBvwIQ__opengraph_left/img/H309VorTZlM7pGQDYn-e7r8SC0Y=/fit-in/445x445/filters:strip_icc()/pic404651.jpg",
+      "shoppingLink": "https://www.amazon.com/Hasbro-Gaming-A8769-Scrabble-Edition/dp/B00IFWSO94/ref=sr_1_11?keywords=Scrabble&qid=1666810383&qu=eyJxc2MiOiI0LjU5IiwicXNhIjoiMy40OSIsInFzcCI6IjMuMjMifQ%3D%3D&sr=8-11",
       "genre": "Puzzle",
       "id": 5
     },
@@ -39,6 +44,7 @@
       "name": "Star Wars: Legion",
       "description": "A Star Wars themed army building game",
       "image": "https://cf.geekdo-images.com/pttzJMbECpFBL_h5tD6SaA__opengraph/img/wBqsN61nkJ4uSTbdraamulZgUX0=/fit-in/1200x630/filters:strip_icc()/pic3764376.jpg",
+      "shoppingLink": "https://www.fantasyflightgames.com/en/products/star-wars-legion/",
       "genre": "Strategy",
       "id": 6
     },
@@ -46,8 +52,17 @@
       "name": "Seven Wonders",
       "description": "A strategy game about building cities and resource management!",
       "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/7_Wonders_-_New_Edition_boxart.png",
+      "shoppingLink": "https://boardgamegeek.com/boardgame/68448/7-wonders",
       "genre": "Strategy",
       "id": 7
+    },
+    {
+      "name": "Settlers of Catan",
+      "description": "Catan is a multiplayer strategy game where the top player has a strangle-hold on the world's economy.",
+      "image": "https://tabletopinfo.com/wp-content/uploads/2020/05/Catan-board-game-1995-cover-1010x1024.jpg",
+      "shoppingLink": "https://www.catan.com/",
+      "genre": "Strategy",
+      "id": 8
     }
   ],
   "posts": [
@@ -58,7 +73,8 @@
       "status": "Looking for players",
       "game": "Dungeons and Dragons",
       "comments": [
-        "Sweet!"
+        "Sweet!",
+        "So cool!"
       ]
     },
     {
@@ -67,7 +83,9 @@
       "description": "I'm trying to find someone who will plays some games of Magic the Gathering with me! I'm pretty experienced, so I'd like to find a good player.",
       "status": "Looking for game",
       "game": "Magic the Gathering",
-      "comments": []
+      "comments": [
+        "I'm down to play!"
+      ]
     },
     {
       "title": "Star Wars: Legion players wanted",
@@ -90,7 +108,9 @@
       "description": "Need to prepare for an upcoming Hearthstone Championship, and need a training buddy",
       "status": "Looking for players",
       "game": "Hearthstone",
-      "comments": [],
+      "comments": [
+        "I'm down to play!"
+      ],
       "id": 5
     },
     {
@@ -128,6 +148,14 @@
       "game": "Arkham Horror",
       "comments": [],
       "id": 9
+    },
+    {
+      "title": "Need 7 players for Seven Wonders",
+      "description": "Trying to get a group together for a game of Seven Wonders this weekend. Who's interested?",
+      "status": "Looking for players",
+      "game": "Seven Wonders",
+      "comments": [],
+      "id": 10
     }
   ]
 }

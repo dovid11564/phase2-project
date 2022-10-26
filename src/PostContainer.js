@@ -3,7 +3,7 @@ import CommentContainer from "./CommentContainer";
 import NewPostForm from "./NewPostForm";
 
 
-function PostContainer({ postData, gameData, onPostFormSubmit }) {
+function PostContainer({ postData, gameData, onPostFormSubmit, newComment, setNewComment }) {
 
 
     const postArray = postData.map(post => {
@@ -18,7 +18,9 @@ function PostContainer({ postData, gameData, onPostFormSubmit }) {
                 <div className="comments">
                     <CommentContainer
                         postComments={post.comments}
-                        postID={post.id} />
+                        postID={post.id} 
+                        newComment={newComment}
+                        setNewComment={setNewComment}/>
                 </div>
             </li>
             </span>

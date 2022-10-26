@@ -49,7 +49,7 @@ function GameContainer({ gameData, gameToFilter, setGameToFilter, setStatus, sta
             <div>{gameArray}</div>
             <br />
             <br />
-            <p className="hoverText">{isHovering ? hoveredGame : null }</p>
+            <p className="hoverText">{isHovering ? hoveredGame : "Select a game to filter posts!" }</p>
         </div>
     )
 }
