@@ -1,3 +1,16 @@
+This project was made in collaboration by Harrison Wilson and Dovid Edelkopf for our Phase 2 React project at the Flatiron School. As per our project's guidelines, we built this webapp in React.
+Some of the methods we used include
+    - Performing fetch requests
+    - Allowing the user to creat posts that persist on a simulated api              
+    - Client side routing
+    - Using state and props to dynamically creat elements
+    - Controlled component forms
+    - .filter method to allow the user to search for relevant posts
+    - Event listeners
+
+Our styling is based off of Katherine Kato's Comic stylesheet. They can be found at their website, https://www.katherinekato.com/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
