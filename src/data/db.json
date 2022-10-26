@@ -41,6 +41,13 @@
       "image": "https://cf.geekdo-images.com/pttzJMbECpFBL_h5tD6SaA__opengraph/img/wBqsN61nkJ4uSTbdraamulZgUX0=/fit-in/1200x630/filters:strip_icc()/pic3764376.jpg",
       "genre": "Strategy",
       "id": 6
+    },
+    {
+      "name": "Seven Wonders",
+      "description": "A strategy game about building cities and resource management!",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/7_Wonders_-_New_Edition_boxart.png",
+      "genre": "Strategy",
+      "id": 7
     }
   ],
   "posts": [
@@ -115,20 +122,12 @@
       "id": 8
     },
     {
-      "title": "",
-      "description": "",
-      "status": "Looking for game",
-      "game": "Magic the Gathering",
-      "comments": [],
-      "id": 9
-    },
-    {
       "title": "Arkham Game Wanted!!!",
       "description": "Looking for a way to play Arkham Horror. Seemed like a fun game, and I want to play!",
       "status": "Looking for game",
       "game": "Arkham Horror",
       "comments": [],
-      "id": 10
+      "id": 9
     }
   ]
 }
