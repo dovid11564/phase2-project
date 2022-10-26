@@ -56,12 +56,15 @@
   background-color: var(--color-dark-yellow);
   width: 300px;
   display: inline-block;
+  flex-wrap: wrap;
   margin: 10px;
-  height: 500px
+  height: 500px;
+  margin-top: 0.5rem;
+  
 }
 
 .header {
-  background-color: #fc9
+
 }
 
 .comments {
@@ -71,6 +74,10 @@
 
 .newpostform {
   white-space: pre;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  
 }
 
 .gameDiv {
