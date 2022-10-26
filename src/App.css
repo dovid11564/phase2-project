@@ -571,6 +571,13 @@ nav ul a:focus {
   border-bottom: 10px solid transparent;
 }
 
+p.about {
+  width:50%;
+  margin:auto;
+  border-style: dotted;
+  
+}
+
 #guidelines p:nth-of-type(1),
 #contribute p:nth-of-type(1) {
   font-size: var(--font-size-h4);
