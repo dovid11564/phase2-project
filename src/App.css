@@ -51,7 +51,7 @@
 
 .gameContainer {
   background: #1b62b9;
-  height: 150px;
+  height: 170px;
   display: inline-block;
 }
 
@@ -80,14 +80,37 @@
 
 .newpostform {
   white-space: pre;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   width: 300px;
-  
+  position: relative;
 }
 
 .gameDiv {
   align-items: center;
+}
+
+.hoverText {
+  position: center;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+
+.allGamesText {
+
+}
+
+.allGamesImage {
+  align-self: center;
+}
+
+.allGamesSpan {
+  border-style: solid;
+  border-color: #000;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
 
 

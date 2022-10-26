@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import GameCard from "./GameCard";
 
 function GameContainer({ gameData, gameToFilter, setGameToFilter, setStatus, status }) {
+
+    const [isHovering, setIsHovering] =useState(false)
+    const [hoveredGame, setHoveredGame] = useState("")
 
     function handleClick() {
         setGameToFilter("")
@@ -27,7 +30,9 @@ function GameContainer({ gameData, gameToFilter, setGameToFilter, setStatus, sta
                 game={game}
                 key={game.id}
                 gameToFilter={gameToFilter}
-                setGameToFilter={setGameToFilter} />
+                setGameToFilter={setGameToFilter}
+                setIsHovering={setIsHovering}
+                setHoveredGame={setHoveredGame} />
 
         )
     })
@@ -42,7 +47,9 @@ function GameContainer({ gameData, gameToFilter, setGameToFilter, setStatus, sta
                 </select>
             </div>
             <div>{gameArray}</div>
-
+            <br />
+            <br />
+            <p className="hoverText">{isHovering ? hoveredGame : null }</p>
         </div>
     )
 }

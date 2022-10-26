@@ -16,7 +16,7 @@ function Header({onFormSubmit}) {
                 <h4>Find Friends to play with!</h4>
             </h2>
             <p><button onClick={handleClick}>
-                {button ? "Hide new game form": "Create A Listing"}
+                {button ? "Hide": "Don't see a game you like? Click to add one!"}
             </button>
             {button ? <NewGameForm onFormSubmit={onFormSubmit}/> : null}
             </p>

@@ -11,13 +11,13 @@
       "id": 2,
       "name": "Dungeons and Dragons",
       "description": "A classic tabletop roleplaying game",
-      "image": "https://yt3.ggpht.com/KU7fu45NbvlG8ECdXtnz2zsJZpHDAPcgd49oQcSTw7IoCXguTJl06kOTUDhBLP417JxP5jGV=s900-c-k-c0x00ffffff-no-rj",
+      "image": "https://i.pinimg.com/736x/05/c1/5a/05c15aca14964af944aac1c638e1d7d2.jpg",
       "genre": "Tabletop Roleplaying Game"
     },
     {
       "name": "Hearthstone",
       "description": "An online card battling game!",
-      "image": "https://logos-world.net/wp-content/uploads/2021/02/Hearthstone-Logo-700x394.png",
+      "image": "https://i.pinimg.com/280x280_RS/fa/7b/f7/fa7bf7f45fcd2bd6dc9fcddff08eb5d7.jpg",
       "genre": "Card Battler",
       "id": 3
     },
