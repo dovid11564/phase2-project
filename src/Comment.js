@@ -22,7 +22,7 @@ function Comment({postID, postComments}) {
 
     return (
         <form onSubmit={(e) => handleCommentSubmit(e)}>
-            <input type="text" name="commentInput" placeholder="Type a comment here!" onChange={(e) => setNewComment(e.target.value)}></input>
+            <input type="text" name="commentInput" placeholder="Comment..." onChange={(e) => setNewComment(e.target.value)}></input>
             <button type="submit" className="postButton">POST!</button>
         </form>
     )
