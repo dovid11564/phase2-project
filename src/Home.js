@@ -9,6 +9,8 @@ function Home() {
   const [postList, setPostList] = useState([])
   const [gameToFilter, setGameToFilter] = useState("")
   const [status, setStatus] = useState("")
+  const [newComment, setNewComment] = useState("")
+  
 
 
   useEffect(() => {
@@ -23,9 +25,9 @@ function Home() {
       .then(resp => resp.json())
       .then(data => setPostList(data))
   },
-    [])
+    [newComment])
 
-  function handleGameFormSubmit(name, image, description, genre) {
+  function handleGameFormSubmit(name, image, description, shoppingLink, genre) {
     fetch("http://localhost:3000/games", {
       method: "POST",
       headers: { 'content-type': 'application/json' },
@@ -33,6 +35,7 @@ function Home() {
         name: name,
         description: description,
         image: image,
+        shoppingLink: shoppingLink,
         genre: genre
       })
     })
@@ -104,7 +107,9 @@ function Home() {
       <PostContainer
         postData={postsFilteredByGame}
         gameData={gameList}
-        onPostFormSubmit={handlePostFormSubmit} />
+        onPostFormSubmit={handlePostFormSubmit} 
+        newComment={newComment}
+        setNewComment={setNewComment}/>
     </div>
   );
 }
