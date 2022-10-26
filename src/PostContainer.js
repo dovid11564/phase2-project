@@ -9,8 +9,8 @@ function PostContainer({ postData, gameData, onPostFormSubmit }) {
     const postArray = postData.map(post => {
         return (
 
-
-            <li className="post" key={post.title} id={post.game}>
+            <span className="post">
+            <li key={post.title} id={post.game}>
                 <h3>{post.title}</h3>
                 <h5>{post.game}</h5>
                 <p>{post.status}</p>
@@ -21,6 +21,7 @@ function PostContainer({ postData, gameData, onPostFormSubmit }) {
                         postID={post.id} />
                 </div>
             </li>
+            </span>
 
         )
     })

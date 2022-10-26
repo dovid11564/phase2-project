@@ -49,22 +49,28 @@
   display: inline-block;
 }
 
+.gameContainer {
+  background: #1b62b9;
+  height: 150px;
+  display: inline-block;
+}
+
 .post {
   list-style: none;
   border-style: solid;
   border-color: black;
   background-color: var(--color-dark-yellow);
   width: 300px;
-  display: inline-block;
+  display: inline-flex;
   flex-wrap: wrap;
   margin: 10px;
   height: 500px;
   margin-top: 0.5rem;
-  
 }
 
-.header {
-
+.postButton {
+  background-color: #1b62b9;
+  color: white;
 }
 
 .comments {
