@@ -45,7 +45,7 @@ function Home() {
       })
   }
 
-  function handlePostFormSubmit(title, description, status, game) {
+  function handlePostFormSubmit(title, description, status, game, date, time, location) {
     fetch("http://localhost:3000/posts", {
       method: "POST",
       headers: { 'content-type': 'application/json' },
@@ -54,6 +54,9 @@ function Home() {
         description: description,
         status: status,
         game: game,
+        date: date,
+        time: time,
+        location: location,
         comments: []
       })
     })
