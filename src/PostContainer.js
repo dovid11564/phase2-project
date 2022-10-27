@@ -1,20 +1,27 @@
-import React from "react";
+import React, {useState} from "react";
 import CommentContainer from "./CommentContainer";
 import NewPostForm from "./NewPostForm";
 
 
 function PostContainer({ postData, gameData, onPostFormSubmit, newComment, setNewComment }) {
 
+    const [postFormDisplay, setPostFormDisplay] = useState(false)
+
+    function onFormButtonClick () {
+        setPostFormDisplay(postFormDisplay => !postFormDisplay)
+    }
 
     const postArray = postData.map(post => {
         return (
 
             <span className="post">
             <li key={post.title} id={post.game}>
-                <h3>{post.title}</h3>
+                <h4>{post.title}</h4>
                 <h5>{post.game}</h5>
-                <p>{post.status}</p>
-                <p>{post.description}</p>
+                <p className="dnt">Location: {post.location}</p>
+                <p className="dnt">Date: {post.date} Time: {post.time}</p>
+                <p className="dnt">{post.status}</p>
+                <p className="postDescription">{post.description}</p>
                 <div className="comments">
                     <CommentContainer
                         postComments={post.comments}
@@ -32,11 +39,13 @@ function PostContainer({ postData, gameData, onPostFormSubmit, newComment, setNe
     return (
         <div>
             <br />
+            <button onClick={(e) => onFormButtonClick(e)} className="postButton">{postFormDisplay ? "Hide" : "Create a new post!"}</button>
             <br />
-
+            <br />
+            {postFormDisplay ?
                 <NewPostForm
                     gameData={gameData}
-                    onPostFormSubmit={onPostFormSubmit} />
+                    onPostFormSubmit={onPostFormSubmit} /> : null}
             <br />
             <ul>
                 {postArray}

@@ -73,6 +73,10 @@
   color: white;
 }
 
+.postDescription {
+  font-size: smaller;
+}
+
 .comments {
   text-align: left;
 }
@@ -83,7 +87,8 @@
   border-width: 0px;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 150px;
+  width: 200px;
+  font-size: smaller;
 }
 
 .commentHeader {
@@ -145,8 +150,13 @@
 .addNewGameButton {
   padding: 0.25rem 1rem;
   cursor: pointer;
-  background-color: var(--color-blue);
-  color: white;
+  background-color: orange;
+  font-weight: bold;
+  color: black;
+}
+
+.dnt {
+  font-style: italic
 }
 
 

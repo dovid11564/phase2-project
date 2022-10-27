@@ -1,6 +1,6 @@
 import React from "react";
 
-function GameCard({game, gameToFilter, setGameToFilter, setIsHovering, setHoveredGame}) {
+function GameCard({ game, setGameToFilter, setIsHovering, setHoveredGame }) {
 
     function handleMouseOver() {
         setHoveredGame(game.name)
@@ -14,10 +14,8 @@ function GameCard({game, gameToFilter, setGameToFilter, setIsHovering, setHovere
 
     return (
         <span className="gameCard" onClick={() => setGameToFilter(game.name)} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-            {/* <h4>{game.name}</h4> */}
-            <img src={game.image} alt={game.name} className="img"/>
-            {/* <p>{game.description}</p>
-            <p>Genre: {game.genre}</p> */}
+            <img src={game.image} alt={game.name} className="img" />
+
         </span>
     )
 }
