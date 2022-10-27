@@ -24,6 +24,7 @@ function NewGameForm({ onFormSubmit }) {
                     <option>Simulator</option>
                     <option>Strategy</option>
                     <option>TTRPG</option>
+                    <option>Outdoor Activity</option>
                 </select>
                 <button type="submit">Add Game!</button>
             </form>

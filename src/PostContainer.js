@@ -11,7 +11,7 @@ function PostContainer({ postData, gameData, onPostFormSubmit, newComment, setNe
         setPostFormDisplay(postFormDisplay => !postFormDisplay)
     }
 
-    const postArray = postData.map(post => {
+    const postArray = postData.reverse().map(post => {
         return (
 
             <span className="post">
@@ -27,13 +27,16 @@ function PostContainer({ postData, gameData, onPostFormSubmit, newComment, setNe
                         postComments={post.comments}
                         postID={post.id} 
                         newComment={newComment}
-                        setNewComment={setNewComment}/>
+                        setNewComment={setNewComment}
+                        key={post.title}/>
                 </div>
             </li>
             </span>
 
         )
     })
+
+    
 
 
     return (
