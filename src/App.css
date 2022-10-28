@@ -36,6 +36,18 @@
 }
 */
 
+.aboutSection {
+  color: white;
+  background-color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+.header {
+  color: white;
+}
+
 .App {
   text-align: center;
 }
@@ -59,7 +71,7 @@
   list-style: none;
   border-style: solid;
   border-color: black;
-  background-color: var(--color-dark-yellow);
+  background-color: orange;
   width: 300px;
   display: inline-flex;
   flex-wrap: wrap;
@@ -69,7 +81,7 @@
 }
 
 .postButton {
-  background-color: #1b62b9;
+  background-color: purple;
   color: white;
 }
 
@@ -81,14 +93,17 @@
   text-align: left;
 }
 
-.comment{
+.comment {
   border: solid;
-  background-color: orange;
+  background-color: purple;
+  color: white;
+  font-weight: bolder;
   border-width: 0px;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 200px;
   font-size: smaller;
+  border-radius: 10%;
 }
 
 .commentHeader {
@@ -119,14 +134,12 @@
 
 .hoverText {
   position: center;
-  color: black;
+  color: white;
   font-weight: bold;
-  background-color: white;
+  background-color: purple;
 }
 
-.allGamesText {
-
-}
+.allGamesText {}
 
 .allGamesImage {
   align-self: center;
@@ -143,16 +156,17 @@
   width: 300px;
   height: 400px;
   display: inline-flex;
-  background-color: var(--color-dark-yellow);
+  align-items: center;
+  background-color: orange;
   margin: 10px
 }
 
 .addNewGameButton {
   padding: 0.25rem 1rem;
   cursor: pointer;
-  background-color: orange;
+  background-color: purple;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 
 .dnt {
@@ -279,8 +293,8 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size-text);
   font-weight: var(--font-weight-regular);
-  background-color: var(--color-yellow);
-  background-image: radial-gradient(var(--color-dark-yellow) 20%, transparent 0), radial-gradient(var(--color-dark-yellow) 20%, transparent 0);
+  background-color: black;
+  background-image: radial-gradient(rgb(125, 8, 125) 20%, transparent 0), radial-gradient(purple 20%, transparent 0);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
 }
@@ -641,10 +655,10 @@ nav ul a:focus {
 }
 
 p.about {
-  width:50%;
-  margin:auto;
+  width: 50%;
+  margin: auto;
   border-style: dotted;
-  
+
 }
 
 #guidelines p:nth-of-type(1),

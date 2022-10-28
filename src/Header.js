@@ -11,10 +11,8 @@ function Header({onFormSubmit}) {
     return (
         <div className="header">
             <div>
-            <h2>
-                Party Planner
-                <h4>Find Friends to play with!</h4>
-            </h2>
+            <h2 classname="headers">Party Planner</h2>
+            <h4 classname="headers">Find Friends to play with!</h4>
             <p><button onClick={handleClick} className="addNewGameButton">
                 {button ? "Hide": "Don't see a game you like? Click to add one!"}
             </button>

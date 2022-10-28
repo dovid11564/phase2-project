@@ -7,9 +7,9 @@ const linkStyles = {
     width: "90px",
     padding: "12px",
     margin: "0 6px 6px",
-    background: "orange",
+    background: "purple",
     textDecoration: "none",
-    color: "black",
+    color: "white",
   };
 
 /* define the NavBar component */
@@ -21,7 +21,7 @@ function NavBar() {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "yellow",
+            background: "orange",
           }}
         >
           Home
@@ -31,7 +31,7 @@ function NavBar() {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "yellow",
+            background: "orange",
           }}
         >
           About
@@ -41,7 +41,7 @@ function NavBar() {
           exact
           style={linkStyles}
           activeStyle={{
-            background: "yellow",
+            background: "orange",
           }}
         >
           Games
