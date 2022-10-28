@@ -29,7 +29,7 @@ function Games() {
 
     return (
         <>
-        <h1>Games</h1>
+        <h1 className="header">Games</h1>
         <div>{gamesArray}</div>
         </>
     )
